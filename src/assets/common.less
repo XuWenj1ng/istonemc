@@ -1,0 +1,25 @@
+@typeColor: #C90007;
+
+
+/* 超出两行显示... */
+.over_two_lines{
+    display: -webkit-box;
+    word-break: break-all;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    white-space: pre-line;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+
+}
+/* 超出一行显示... */
+.over_one_line{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+
+.layout_margin {
+    margin: 0px 360px;
+}
